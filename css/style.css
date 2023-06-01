@@ -129,6 +129,41 @@ body {
     font-size: 23px;
     color: #000;
     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: color .5s;
+    z-index: 1;
+}
+
+.lightbtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(75.49deg, #FC563A 15.31%, #FFE145 88%);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+   
+.lightbtn:hover {
+    color: #fff;
+}
+   
+.lightbtn:before {
+    top: 100%;
+    right: 100%;
+    transition: all .7s;
+}
+   
+.lightbtn:hover:before {
+    top: -30px;
+    right: -30px;
+}
+   
+.lightbtn:active:before {
+    background: linear-gradient(75.49deg, #FC563A 15.31%, #FFE145 88%);
+    transition: background 0s;
 }
 
 .darkbtn {
@@ -142,7 +177,42 @@ body {
     font-weight: 500;
     font-size: 23px;
     color: #747474;
+    display: inline-block;
+    position: relative;
     cursor: pointer;
+    overflow: hidden;
+    transition: color .5s;
+    z-index: 1;
+}
+   
+.darkbtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(75.49deg, #6732FE 15.31%, #F043EE 88%);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+   
+.darkbtn:hover {
+    color: #fff;
+}
+   
+.darkbtn:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+   
+.darkbtn:hover:before {
+    top: -30px;
+    left: -30px;
+}
+   
+.darkbtn:active:before {
+    background: linear-gradient(75.49deg, #6732FE 15.31%, #F043EE 88%);
+    transition: background 0s;
 }
 
 .lastdiv {
