@@ -152,7 +152,7 @@ body {
     justify-content: space-between;
     padding-left: 46px;
     padding-right: 30px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .a-skip {
@@ -161,7 +161,6 @@ body {
     font-weight: 500;
     font-size: 20px;
     color: #000;
-    text-decoration: none;
 }
 
 .svgbox {
@@ -180,37 +179,49 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 5px;
 }
 
 .svg-hrz path {
     fill: white;
+    transition: 2s;
 }
 
 .svg-hrz-b path {
     fill: black;
+    transition: 2s;
 }
 
 .svgtime path {
     fill: #fff;
+    transition: 2s;
 }
 
 .svgtime-b path {
     fill: #000;
+    transition: 2s;
 }
 
 .wifisvg path {
     fill: #fff;
+    transition: 2s;
 }
 
 .wifisvg-b path {
     fill: #000;
+    transition: 2s;
 }
 
 .baterrysvg path {
     fill: #fff;
+    transition: 2s;
 }
 
 .baterrysvg-b path {
     fill: #fff;
+    transition: 2s;
+}
+
+.svgrect rect {
+    fill: #6D6D6D;
+    transition: 2s;
 }
