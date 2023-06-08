@@ -39,7 +39,7 @@ function dark() {
     document.getElementById("lbtn").style.backgroundColor = "#C2C2C2";
     document.getElementById("lbtn").style.color = "#363636";
     document.getElementById("lbtn").style.transition = "2s";
-    document.getElementById("p-skip").style.color = "##D3D3D3";
+    document.getElementById("p-skip").style.color = "#D3D3D3";
     document.getElementById("p-skip").style.transition = "2s";
     document.getElementById("boxsvg").style.backgroundColor = "#4D4D4D";
     document.getElementById("boxsvg").style.transition = "2s";
